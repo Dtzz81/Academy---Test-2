@@ -1,3 +1,4 @@
 describe "something" do
-    it 
+    it "works" do
+        expect(true).to eq true
 end
