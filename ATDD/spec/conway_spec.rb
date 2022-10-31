@@ -1,4 +1,5 @@
-describe "something" do
-    it "works" do
-        expect(true).to eq true
+describe "does the test run?" do
+    it "it should come as an error" do
+        expect(true).to be false
+    end
 end

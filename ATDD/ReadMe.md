@@ -11,3 +11,14 @@ In other words:
 - Any live cell with two or three live neighbours survives.
 - Any dead cell with three live neighbours becomes a live cell.
 - All other live cells die in the next generation. Similarly, all other dead cells stay dead.
+
+To test if rspec works:
+
+describe "something" do
+    it "works" do
+        expect(true).to eq true
+    end
+end
+
+What is simplest? :
+- If cell has no neighbours, it dies
